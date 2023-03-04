@@ -134,7 +134,7 @@ span a:hover{
  font-weight:bold;
  font-size:20px;
  flex-direction:column;
-
+ display:flex;
  width:400px;
  font-weight:bold;
  background:#444E5F;
