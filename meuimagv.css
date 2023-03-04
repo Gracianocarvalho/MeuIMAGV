@@ -19,7 +19,7 @@ body{
 
 }
 .principal{
-  background:url("imagens/imgeu2.jpeg") no-repeat center;
+  background:url("imgeu2.jpeg") no-repeat center;
   background-size:cover;
   color:black;
   display:flex;
@@ -67,7 +67,7 @@ input{
  text-align:left;
  border-bottom:4px solid ;
  border-radius:30px;
- transition: .4s ease-in-out;
+ transition: 1s ease-in-out;
 
 
 }
@@ -114,8 +114,7 @@ span#t1 a{
  color:#86494;
  border-bottom: 3px solid #444E5F;
  padding:20px;
- transition: .4s ease-in;
-
+ transition:1s;
 
 }
 
@@ -129,7 +128,7 @@ a{
 }
 span a:hover{
  font-size:60px;
- transition:.4s;
+ transition:1s;
 }
 .as {
  margin:60px 60px 10px 0;
@@ -156,9 +155,7 @@ span a:hover{
  font-weight:bold;
  color:#906E44;
 }
-.as a{
- margin-left:60px;
-}
+
 .redes{
 
  width:380px;
@@ -188,10 +185,6 @@ span a:hover{
  font-weight:bold;
  font-size:40px;
 
-
-}
-.icons ion-icon{
-  transition:.4s;
 }
 .icons ion-icon:hover{
  color:#86494D;
@@ -230,7 +223,6 @@ border-radius:30px;
  cursor:pointer;
  font-size:30px;
  border: 6px solid #444E5F;
- transition:.4s;
 
 
 }
