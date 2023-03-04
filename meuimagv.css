@@ -155,7 +155,9 @@ span a:hover{
  font-weight:bold;
  color:#906E44;
 }
-
+.as a{
+ margin-left:60px;
+}
 .redes{
 
  width:380px;
