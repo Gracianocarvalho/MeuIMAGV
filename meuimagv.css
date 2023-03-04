@@ -1,0 +1,216 @@
+/* importando fontes de texto diferentes do padrão do idle pycharm*/
+@import url('https://fonts.googleapis.com/css2?family= Blaka+Hollow & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+*{
+ padding:0px;
+ margin:0px;
+ color:#444E5F;
+ box-size: border-box;
+ font-family:font-family:Blaka Hollow,'cursiva';
+
+
+}
+body{
+
+}
+*{
+/*border:1px dashed brown;*/
+
+}
+.principal{
+  background:url("fundo.jpg") no-repeat center;
+  background-size:cover;
+  color:black;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:auto;
+
+
+
+
+}
+
+.Max-width{
+
+ display:block;
+ height:800px;
+ width:500px;
+ margin:60px;
+ padding:10px;
+ text-align:center;
+ font-size:37px;
+ background:transparent;
+}
+
+
+.item1{
+ display:flex;
+ justify-content:flex-start;
+ align-items:flex-start;
+ flex-direction:column;
+ height:380px;
+ margin:20px;
+}
+input{
+
+ margin-top:70px;
+ margin-right:10px;
+ padding:18px;
+ background:none;
+font-size:15px;
+ border:none;
+
+ width:380px;
+ height:18px;
+ text-align:left;
+ border-bottom:4px solid ;
+ border-radius:30px;
+ transition: 1s ease-in-out;
+
+
+}
+
+input:hover{
+ color:#86494D;
+ background:#444E5F;
+ border-bottom:4px solid #444E5F ;
+ border-radius:30px;
+ font-size:30px;
+
+
+}
+#logoperson{
+font-weight:bold;
+position:absolute;
+color:#86494D;
+top:220px;
+left:810px;
+font-size:30px;
+
+
+}
+#logolock{
+font-weight:bold;
+position:absolute;
+color:#86494D;
+top:345px;
+left:810px;
+font-size:30px;
+
+}
+
+#logosave{
+font-weight:bold;
+position:absolute;
+color:#86494D;
+top:470px;
+left:810px;
+font-size:30px;
+}
+
+span#t1 a{
+ color:#86494;
+ border-bottom: 3px solid #444E5F;
+ padding:20px;
+
+}
+
+a{
+ color:#86494D;
+ text-decoration:none;
+ text-align:right;
+ font-weight:bold;
+
+
+}
+span a:hover{
+ font-size:60px;
+}
+.as {
+ margin:20px 60px 60px 0;
+ padding:10px;
+ font-weight:bold;
+ font-size:20px;
+ display:flex;
+ align-items:flex-end;
+ font-weight:bold;
+
+
+}
+
+.redes{
+width:380px;
+ display:flex;
+ justify-content:space-between;
+ flex-direction:column;
+ align-items:center;
+ margin:20px 60px 60px 0;
+ padding:5px;
+ font-weight:bold;
+ font-size:20px;
+}
+
+.ou{
+ margin:10px;
+ color:#86494D;
+ font-size:40px;
+ font-weight:bold;
+
+}
+.icons{
+ display:flex;
+ justify-content:space-between;
+ margin:10px;
+ padding:10px;
+ flex-direction:row;
+ font-weight:bold;
+ font-size:40px;
+ transition:4s;
+}
+.icons ion-icon:hover{
+ color:#86494D;
+ font-size:60px;
+}
+.redes a  {
+ padding:28px;
+ display:flex;
+ justify-content:space-between;
+
+}
+.logoprincipal{
+ position:absolute;
+ top:5px;
+ left:5px;
+ font-size:40px;
+ font-family:'Shantell Sans', cursive;
+ color:white;
+
+}
+h1{
+ text-shadow:2px 4px 10px black;
+}
+.btn{
+width:300px;
+height:60px;
+border-radius:30px;
+ position:absolute;
+ top:860px;
+ left:480px;
+ text-align:center;
+ background:none;
+ color:#444E5F;
+ margin-top:20px;
+ margin-bottom:20px;
+ cursor:pointer;
+ font-size:30px;
+ border: 1px solid #444E5F;
+}
+
+.btn:hover{
+  background:#444E5F;
+  color:#86494D;
+  font-size:40px;
+
+}
