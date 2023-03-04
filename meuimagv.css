@@ -59,7 +59,7 @@ input{
  margin-right:10px;
  padding:18px;
  background:none;
-font-size:15px;
+ font-size:15px;
  border:none;
 
  width:380px;
@@ -74,8 +74,8 @@ font-size:15px;
 
 input:hover{
  color:#86494D;
- background:#444E5F;
- border-bottom:4px solid #444E5F ;
+ background:white;
+ border-bottom:4px solid #1D274A ;
  border-radius:30px;
  font-size:30px;
 
@@ -84,7 +84,7 @@ input:hover{
 #logoperson{
 font-weight:bold;
 position:absolute;
-color:#86494D;
+color:#1D274A;
 top:220px;
 left:810px;
 font-size:30px;
@@ -94,7 +94,7 @@ font-size:30px;
 #logolock{
 font-weight:bold;
 position:absolute;
-color:#86494D;
+color:#1D274A;
 top:345px;
 left:810px;
 font-size:30px;
@@ -104,7 +104,7 @@ font-size:30px;
 #logosave{
 font-weight:bold;
 position:absolute;
-color:#86494D;
+color:#1D274A;
 top:470px;
 left:810px;
 font-size:30px;
@@ -200,7 +200,7 @@ span a:hover{
  position:absolute;
  top:5px;
  left:5px;
- font-size:40px;
+ font-size:35px;
  font-family:'Shantell Sans', cursive;
  color:white;
 
@@ -223,13 +223,13 @@ border-radius:30px;
  cursor:pointer;
  font-size:30px;
  border: 6px solid #444E5F;
- box-shadow:5px -1px 5px #86494D;
+
 
 }
 
 .btn:hover{
-  background:#444E5F;
-  color:#86494D;
+  background:#1D274A;
+  color:#765220;
   font-size:40px;
 
 }
