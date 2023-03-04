@@ -114,6 +114,7 @@ span#t1 a{
  color:#86494;
  border-bottom: 3px solid #444E5F;
  padding:20px;
+ transition:1s;
 
 }
 
@@ -127,6 +128,7 @@ a{
 }
 span a:hover{
  font-size:60px;
+ transition:1s;
 }
 .as {
  margin:60px 60px 10px 0;
