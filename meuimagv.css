@@ -19,7 +19,7 @@ body{
 
 }
 .principal{
-  background:url("fundo.jpg") no-repeat center;
+  background:url("imgeu1.jpg") no-repeat center;
   background-size:cover;
   color:black;
   display:flex;
@@ -157,7 +157,8 @@ span a:hover{
 }
 
 .redes{
-width:380px;
+
+ width:380px;
  display:flex;
  justify-content:space-between;
  flex-direction:column;
@@ -183,7 +184,7 @@ width:380px;
  flex-direction:row;
  font-weight:bold;
  font-size:40px;
- transition:4s;
+
 }
 .icons ion-icon:hover{
  color:#86494D;
@@ -208,20 +209,22 @@ h1{
  text-shadow:2px 4px 10px black;
 }
 .btn{
-width:300px;
-height:60px;
+ width:300px;
+ height:60px;
 border-radius:30px;
  position:absolute;
- top:860px;
- left:480px;
+ top:830px;
+ left:500px;
  text-align:center;
  background:none;
  color:#444E5F;
- margin-top:20px;
- margin-bottom:20px;
+ margin-top:50px;
+ margin-bottom:10px;
  cursor:pointer;
  font-size:30px;
- border: 1px solid #444E5F;
+ border: 6px solid #444E5F;
+ box-shadow:5px -1px 5px #86494D;
+
 }
 
 .btn:hover{
