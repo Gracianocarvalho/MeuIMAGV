@@ -7,7 +7,7 @@ bin-release/
 # Other files and folders
 .settings/
 LICENSE/
-CONFIG.TXT/
+*.CONFIG.TXT/
 
 # Executables
 *.swf
