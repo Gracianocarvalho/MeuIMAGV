@@ -1,11 +1,15 @@
-from flask import Flask,render_templaste
+from flask import Flask
 
-IMAGV = Flask(_name_)
+IMAGV = Flask(__name__)
 
-@IMAGV.route()
-def index("/Entrar"):
+@IMAGV.route("/")
+def index():
+  return "Joshua"
+def teste1():
+    return "<p>Testando</p>"
 
 
+IMAGV.add_url_rule("/teste","teste",teste1)
 
-if _name_== "__main__":
-    IMAGV.run()
+if __name__== "__main__":
+    IMAGV.run(debug=True)
